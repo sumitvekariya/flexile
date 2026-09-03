@@ -17,7 +17,7 @@ gem "pg", "~> 1.4"
 gem "pg_search", "~> 2.3"
 
 # Use the Puma web server [https://github.com/puma/puma]
-gem "puma", "~> 6.3"
+gem "puma", "~> 7.2"
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder", "~> 2.11"
@@ -74,9 +74,9 @@ gem "faker", "~> 3.1"
 
 gem "prawn", "~> 2.5", require: false
 
-gem "httparty", "~> 0.21"
+gem "httparty", "~> 0.24"
 
-gem "devise", "~> 4.8"
+gem "devise", "~> 5.0"
 
 gem "administrate", "~> 0.18"
 
@@ -92,7 +92,7 @@ else
   gem "sidekiq-pro", "~> 7", source: "https://gems.contribsys.com/"
 end
 
-gem "aws-sdk-s3", "~> 1.117"
+gem "aws-sdk-s3", "~> 1.208"
 
 gem "paper_trail", "~> 16.0"
 
@@ -108,7 +108,7 @@ gem "pagy", "~> 9.0"
 
 gem "maxmind-geoip2", "~> 1.1"
 
-gem "sidekiq-cron", "~> 2.0"
+gem "sidekiq-cron", "~> 2.4"
 
 gem "stripe", "~> 13.5"
 
@@ -134,7 +134,7 @@ gem "grover", "~> 1.1"
 
 gem "dalli", "~> 3.2"
 
-gem "jwt", "~> 2.7"
+gem "jwt", "~> 2.10"
 
 gem "hexapdf", "~> 1.2.0"
 
